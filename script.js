@@ -177,10 +177,10 @@ const gapAfterTable = lineHeight * 5; // 5-line gap
 const signatureYPosition = finalY + gapAfterTable;
 
 // Signature of COE on the left
-doc.text(' Signature of COE', 10, signatureYPosition);
+doc.text(' Signature of Faculty', 10, signatureYPosition);
 
 // Calculate the width of the Director's signature text
-const directorSignatureText = 'Signature of Director  ';
+const directorSignatureText = 'Controller Of Examinations ';
 const directorTextWidth = doc.getTextWidth(directorSignatureText);
 
 // Ensure it fits within the page
